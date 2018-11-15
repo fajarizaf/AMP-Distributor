@@ -1,0 +1,534 @@
+.pok-wrapper *,
+.pok-wrapper *:before,
+.pok-wrapper *:after{
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.pok-wrapper .nav-tab-wrapper {
+	margin-bottom: 20px;
+}
+.pok-notice {
+	background-color: #fff;
+	padding: 10px 15px;
+	/*border: 1px solid #eee;*/
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	border-left: 4px solid #faa026;
+}
+.pok-notice p {
+	margin: 0;
+}
+.pok-setting {
+	margin-top: 20px;
+}
+.pok-setting .setting-section {
+	margin-bottom: 20px;
+}
+.pok-setting .section-title {
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0 0 10px;
+}
+.pok-setting .setting-table {
+	display: table;
+	width: 100%;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #ddd;
+}
+.pok-setting .setting-table .setting-row {
+	display: table-row;
+}
+.pok-setting .setting-table .setting-index {
+	width: 300px;
+	background-color: #f8f8f8;
+	display: table-cell;
+	padding: 20px 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+}
+.pok-setting .setting-table .setting-index label {
+	font-size: 14px;
+	font-weight: 600;
+	margin: 0 0 5px;
+	display: block;
+}
+.pok-setting .setting-table .setting-row.setting-error .setting-index label:after {
+	content: " \f534";
+	color: #dc3232;
+	font-family: 'dashicons';
+	font-size: 20px;
+	display: inline-block;
+	position: absolute;
+	margin-left: 5px;
+}
+.pok-setting .setting-table .setting-index p.helper {
+	margin: 0;
+	font-style: italic;
+	font-size: 12px;
+	opacity: 0.5;
+	line-height: 15px;
+}
+.pok-setting .setting-table .setting-option {
+	display: table-cell;
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	vertical-align: top;
+	padding: 20px 15px 20px;
+	input,
+	select,
+	textarea {
+		width: 100%;
+	}
+}
+.pok-setting .setting-table .setting-option label {
+	display: block;
+	font-size: 13px;
+}
+.pok-setting .setting-table .setting-option input[type="text"],
+.pok-setting .setting-table .setting-option input[type="email"],
+.pok-setting .setting-table .setting-option input[type="number"],
+.pok-setting .setting-table .setting-option input[type="password"],
+.pok-setting .setting-table .setting-option select,
+.pok-setting .setting-table .setting-option textarea {
+	width: 100%;
+}
+.pok-setting .setting-table .setting-option input[type="submit"] {
+	margin-top: 15px;
+}
+.pok-setting .setting-table .setting-option .toggle {
+	display: inline-block;
+	background-color: #eee;
+	height: 40px;
+	border-radius: 20px;
+	padding: 3px;
+	font-size: 0;
+	box-shadow: 0 0 5px rgba(20,20,20,.05) inset;
+}
+.pok-setting .setting-table .setting-option .toggle input {
+	display:none;
+}
+.pok-setting .setting-table .setting-option .toggle label {
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+	height: 34px;
+	margin: 0;
+	line-height: 24px;
+	border-radius: 17px;
+	padding: 5px 15px;
+	font-size: 13px;
+	color: rgba(0,0,0,.5);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.pok-setting .setting-table .setting-option .toggle input:checked + label {
+	background-color: #faa026;
+	color: #fff;
+}
+.pok-setting .setting-table .setting-option .toggle label:after {
+	content: '';
+}
+.pok-setting .setting-table .setting-option .setting-sub-option {
+	background-color: #f8f8f8;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-top: 15px;
+	display: none;
+}
+.pok-setting .setting-table .setting-option .setting-sub-option.show {
+	display: block;
+}
+.pok-setting .setting-table .setting-option .setting-sub-option > p {
+	margin: 0;
+}
+.pok-setting .setting-table .setting-option .setting-sub-option label {
+	margin: 5px 0 0;
+}
+.pok-setting .setting-table .setting-option .setting-sub-option label:first-child {
+	margin: 0;
+}
+.pok-setting .setting-table .setting-option .setting-sub-option label:after {
+	content: '';
+}
+.pok-setting .setting-table .setting-option > .helper {
+	font-style: italic;
+	margin-bottom: 0;
+}
+.pok-setting .setting-table .setting-option .setting-sub-option .helper {
+	opacity: 0.5;
+	font-style: italic;
+	font-size: 12px;
+}
+.pok-setting .setting-table .setting-option .rajakongkir-api-fields .field-type {
+	float: left;
+	width: 30%;
+}
+.pok-setting .setting-table .setting-option .rajakongkir-api-fields .field-key {
+	float: right;
+	width: 70%;
+	padding-left: 15px;
+}
+.pok-setting .setting-table .setting-option .rajakongkir-api-fields .check {
+	clear: both;
+	padding-top: 15px;
+}
+.pok-setting .setting-table .setting-option .rajakongkir-api-fields .rajaongkir-key-response {
+	display: inline-block;
+	line-height: 28px;
+	padding: 0 10px;
+	vertical-align: top;
+	color: #ca4a1f;
+	font-weight: 600;
+}
+.pok-setting .setting-table .setting-option .rajakongkir-api-fields .rajaongkir-key-response.success {
+	color: #46b450;
+}
+.pok-setting .setting-table .setting-option .rajakongkir-api-fields .rajaongkir-key-response.loading {
+	color: #999;
+}
+.pok-setting .setting-table .setting-option .courier-options.pro {
+	column-count: 4;
+}
+.pok-setting .setting-table .setting-option .courier-options input {
+	display: none;
+}
+.pok-setting .setting-table .setting-option .courier-options label {
+	background-color: #f0f0f0;
+	margin-bottom: 2px;
+	height: 25px;
+	line-height: 25px;
+	max-width: 200px;
+	padding-left: 25px;
+	padding-right: 5px;
+	position: relative;
+	color: rgba(0,0,0,.7);
+}
+.pok-setting .setting-table .setting-option .courier-options.pro label {
+	max-width: none;
+}
+.pok-setting .setting-table .setting-option .courier-options label:before {
+	content: '';
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+}
+.pok-setting .setting-table .setting-option .courier-options input:checked + label {
+	color: #444;
+}
+.pok-setting .setting-table .setting-option .courier-options input:checked + label:after {
+	content: "\f147";
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+	color: #faa026;
+	font-size: 24px;
+	font-family: dashicons;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	line-height: 11px;
+}
+.pok-setting .setting-table .setting-option .courier-options input:disabled + label {
+	color: rgba(0,0,0,.3);
+	cursor: not-allowed;
+}
+.pok-setting .setting-table .setting-option .courier-options input:disabled + label:before {
+	background: #e0e0e0;
+	opacity: 0;
+}
+.pok-setting .setting-table .setting-option .options-specific-service > div {
+	margin-bottom: 10px;
+}
+.pok-setting .setting-table .setting-option .options-specific-service > div > p {
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.pok-setting .setting-table .setting-option .options-specific-service .courier-service-options {
+	column-count: 3;
+}
+.pok-setting .setting-table .setting-option .options-specific-service .courier-options label {
+	width: 100%;
+	max-width: none;
+	margin-top: 0;
+	margin-bottom: 2px;
+}
+.pok-setting .button-warning {
+	background-color: #a00;
+	text-shadow: none;
+	border-color: #800;
+	box-shadow:0 2px 0 #800;
+	color: #fff;
+}
+.pok-setting .button-warning:hover,
+.pok-setting .button-warning:active,
+.pok-setting .button-warning:focus {
+	background-color: #b00;
+	color: #fff;
+	border-color: #800;
+}
+
+.select2 {
+	width: 100% !important;
+}
+.select2-container {
+	margin: 1px 0;
+	font-size: 13px;
+}
+.select2-container .select2-selection--single,
+.select2-container .select2-selection--multiple {
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	border: 1px solid #ddd;
+	border-radius: 0;
+	min-height: 28px;
+	width: 100%;
+}
+.select2-container .select2-selection--single li,
+.select2-container .select2-selection--multiple li {
+	margin-bottom: 0;
+}
+.select2-container .select2-selection--single li input,
+.select2-container .select2-selection--multiple li input {
+	margin-top: 1px !important;
+	min-height: 24px !important;
+	margin-top: 2px;
+}
+.select2-container.select2-container--focus .select2-selection--single,
+.select2-container.select2-container--focus .select2-selection--multiple {
+	border-color: #5b9dd9;
+	box-shadow: 0 0 2px rgba(30,140,190,.8);
+}
+.select2-dropdown {
+	border-color: #ddd;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	border: 1px solid #ddd;
+	border-radius: 0;
+	min-height: 28px;
+}
+
+.pok-notice-error {
+	background: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	padding: 1px 12px;
+	border-left: 4px solid #dc3232;
+}
+
+.pok-wc-setting {
+	margin-top: 15px;
+	background-color: #fff;
+	max-width: 500px;
+	padding: 15px;
+}
+.pok-wc-setting h3 {
+	text-align: center;
+	margin: 0 0 15px;
+	font-size: 20px;
+}
+.pok-wc-setting img {
+	display: block;
+	width: 100%;
+}
+.pok-wc-setting .button {
+	display: block;
+	margin: 15px auto 0;
+	max-width: 250px;
+	text-align: center;
+}
+.pok-wc-setting + p.submit {
+	display: none;
+}
+
+.pok-checker {
+	padding-left: 380px;
+}
+.pok-checker .sidebar {
+	width: 360px;
+	background-color: #fff;
+	margin-left: -380px;
+	float: left;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #ddd;
+}
+.pok-checker .sidebar table {
+	width: 100%;
+	/*padding: 10px;*/
+}
+.pok-checker .sidebar table td {
+	/*vertical-align: top;*/
+	padding: 10px;
+}
+.pok-checker .sidebar table td.index {
+	width: 1%;
+	white-space: nowrap;
+	padding: 14px 10px;
+}
+.pok-checker .sidebar table td.value {
+	font-weight: 700;
+	vertical-align: middle;
+}
+.pok-checker .sidebar table input:not([type="checkbox"]),
+.pok-checker .sidebar table select {
+	font-weight: normal;
+	width: 100%;
+}
+.pok-checker .sidebar table tr.total {
+	display: none;
+}
+.pok-checker .sidebar table tr.total.show {
+	display: table-row;
+}
+.pok-checker .sidebar .submit {
+	text-align: right;
+	margin: 0;
+	padding: 10px;
+	background-color: #f8f8f8;
+}
+.pok-checker .result {
+	float: right;
+	width: 100%;
+}
+.pok-checker .result .result-section {
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #ddd;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+.pok-checker .result .result-section .title {
+	padding: 8px 10px;
+	border-bottom: 1px solid #ddd;
+	font-weight: 600;
+}
+.pok-checker .result .result-section .content {
+	padding: 10px;
+}
+.pok-checker .result .displayed-result .content {
+	padding: 0;
+}
+.pok-checker .result .debug-result .content {
+	overflow-y: auto;
+}
+.pok-checker .result .debug-result .content .left {
+	width: 50%;
+	float: left;
+}
+.pok-checker .result .debug-result .content .right {
+	width: 50%;
+	float: right;
+	padding-left: 10px;
+}
+.pok-checker .result .debug-result .content pre {
+	background-color: #f0f0f0;
+	font-size: 11px;
+	line-height: 11px;
+	padding: 5px;
+}
+
+.pok-custom-cost .custom-costs select,
+.pok-custom-cost .custom-costs input {
+	width: 100%;
+}
+.pok-custom-cost .custom-costs .nowrap {
+	width: 1%;
+	white-space: nowrap;
+}
+.pok-custom-cost .custom-costs .remove-manual {
+	color: #ca4a1f;
+	cursor: pointer;
+}
+.pok-custom-cost .custom-costs tfoot {
+	background-color: #eee;
+}
+.pok-custom-cost .custom-costs tfoot select[disabled] {
+	cursor: wait;
+}
+.pok-custom-cost .custom-costs tfoot input {
+	margin: 0;
+	height: 28px;
+	padding: 0 5px;
+}
+.pok-custom-form .info-warning {
+	padding: 5px 10px;
+	background-color: #fff7ed;
+	margin-bottom: 10px;
+	border: 1px solid #feecd4;
+}
+.pok-custom-form .info-warning p {
+	margin: 0;
+}
+
+.pok-onboard-content {
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+.pok-onboard-content .row,
+.pok-onboard-footer .row {
+	margin: 0 -10px;
+}
+.pok-onboard-content .row::after,
+.pok-onboard-footer .row::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.pok-onboard-content .col-half {
+	width: 50%;
+	float: left;
+	padding: 0 10px;
+}
+.pok-onboard-footer .col-third {
+	width: 33.333333%;
+	float: left;
+	padding: 0 10px;
+}
+.pok-onboard-footer .col-fourth {
+	width: 25%;
+	float: left;
+	padding: 0 10px;
+}
+.pok-onboard-content .main-logo img {
+	display: block;
+	margin: 0 auto;
+}
+.pok-onboard-content .main-logo .pok-logo {
+	width: 240px;
+	max-width: 100%;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.pok-onboard-content .main-logo .main-cta {
+	text-align: center;
+	padding-top: 25px;
+}
+.pok-onboard-footer .more-content {
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+.pok-onboard-footer .more-content h3 {
+	margin: 0;
+}
+.pok-onboard-footer .more-btn .dashicons {
+	line-height: 28px;
+	font-size: 14px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.pok-onboard-footer .more-btn a:hover .dashicons {
+	-webkit-transform: translateX(5px);
+	-ms-transform: translateX(5px);
+	-o-transform: translateX(5px);
+	transform: translateX(5px);
+}

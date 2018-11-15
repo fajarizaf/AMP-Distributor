@@ -1,0 +1,132 @@
+/*
+All Template in One File
+Inluded Template List:
+Default Template - default
+Green Template - green
+Blue Template - blue
+*/
+
+
+
+/********************** Template: Default ************************************/
+
+/*Main Table Wrapper Style and few Basic*/
+div.wpt_product_table_wrapper.default_wrapper {
+    border: 1px solid #f9f9f9;
+    clear: both;
+    width: 100%;
+    background: #ffffff;
+    box-sizing: border-box;
+    display: table;
+    position: relative;
+    margin: 10px auto;
+}
+div.wpt_product_table_wrapper.default_wrapper h1.wpt_table_title {
+    padding: 11px;
+    margin: 0;
+}
+div.wpt_product_table_wrapper.default_wrapper table.wpt_product_table.default_table {
+    width: 100%;
+}
+/*Style Universal for Tr,Td,Th etc  table.wpt_product_table.blue_wrapper */
+table.wpt_product_table.default_table, 
+table.wpt_product_table.default_table tr, 
+table.wpt_product_table.default_table td, 
+table.wpt_product_table.default_table th {
+    border-collapse: collapse;
+    border: 1px solid #efefef;
+}
+
+table.wpt_product_table.default_table .wpt_quantity .quantity{display: block;text-align: center;}
+
+table.wpt_product_table.default_table tr td,
+table.wpt_product_table.default_table tr th
+{padding: 1px 5px;background: transparent;}
+
+/*Style for Table Head*/
+table.wpt_product_table.default_table thead tr,table.wpt_product_table.default_table thead tr>th {
+    background-color: #777373;
+    color: white;
+}
+table.wpt_product_table.default_table thead tr th {
+    border: 1px solid #616161;
+}
+table.wpt_product_table.default_table thead tr th {
+    padding: 5px 10px;
+    font-size: 110%;
+}
+
+/*Style for Even Row*/
+table.wpt_product_table.default_table tr:nth-child(even) {
+  background: #fdfdfd;
+}
+
+/*Style for Row*/
+table.wpt_product_table.default_table tbody tr:hover{
+    background: #fafafa;
+}
+
+
+table.wpt_product_table.default_table thead th.serial_number,
+table.wpt_product_table.default_table tbody tr td.wpt_serial_number{
+    text-align: center !important;
+    background: rgba(116, 175, 153, 0.04);
+}
+
+/*Customization for Quantity Collum*/
+table.wpt_product_table.default_table thead th.quantity {
+    width: 83px;
+}
+
+/*Customize Action collumn*/
+.wpt_product_table thead th.action{
+    width: 167px;
+}
+table.wpt_product_table.default_table thead th.action,
+table.wpt_product_table.default_table tbody tr td.wpt_action{
+    background: rgba(116, 175, 153, 0.04);
+}
+
+/*Customize for Quantity Collumn*/
+table.wpt_product_table.default_table td.wpt_quantity {
+    padding: 0 !important;
+}
+table.wpt_product_table.default_table tbody tr td.wpt_quantity>div.quantity input[type='number']{
+    color: #000000;
+    padding: 6px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/*Add to Cart Button Style*/
+table.wpt_product_table.default_table span.wpt_product_price>a.button.add_to_cart_button {
+    background: rgba(255, 255, 255, 0.54);
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 3px;
+    border: 1px solid #e2e2e2;
+    color: #777373;
+}
+table.wpt_product_table.default_table tr:hover span.wpt_product_price>a.button.add_to_cart_button {
+    background: rgba(255, 255, 255, 0.54);
+    border: 1px solid #c5c5c5;
+    color: #000000;
+}
+table.wpt_product_table.default_table span.wpt_product_price>a.button.add_to_cart_button.added {
+    background: rgb(230, 230, 230);
+    display: inline-block;
+    padding: 2px 3px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    color: #c5c5c5;
+}
+
+/*Masic class Style. for colunm on Mouse Over. Manage by jQuery*/
+div.wpt_product_table_wrapper.default_wrapper table.wpt_product_table.default_table tbody tr td.wpt_masic_column{
+   background: rgba(242, 247, 31, 0.08);
+}
+
+/*************Default Template End *****************/
+

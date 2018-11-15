@@ -1,0 +1,7 @@
+.pok_loading {
+	opacity: 0.6;
+	cursor: progress;
+}
+.pok_loading * {
+	cursor: progress !important;
+}

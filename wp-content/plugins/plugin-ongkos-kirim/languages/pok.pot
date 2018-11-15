@@ -1,0 +1,1073 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin Ongkos Kirim\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-17 06:24+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: classes/class-pok-admin.php:60
+msgid ""
+"Are you sure? Switching base API will delete all cached data and custom "
+"shipping costs. Also, you might need to re-set your store location."
+msgstr ""
+
+#: classes/class-pok-admin.php:61
+msgid ""
+"To activate Rajaongkir, provide the API key and set the API type, then click "
+"Check Rajaongkir Status."
+msgstr ""
+
+#: classes/class-pok-admin.php:62 classes/class-pok-ajax.php:75
+msgid "API key is empty"
+msgstr ""
+
+#: classes/class-pok-admin.php:63
+msgid "Can not connect server"
+msgstr ""
+
+#: classes/class-pok-admin.php:64
+msgid "Connecting server..."
+msgstr ""
+
+#: classes/class-pok-admin.php:65 views/setting-custom.php:101
+msgid "All Province"
+msgstr ""
+
+#: classes/class-pok-admin.php:66 views/setting-custom.php:111
+msgid "All City"
+msgstr ""
+
+#: classes/class-pok-admin.php:67 views/setting-custom.php:116
+msgid "All District"
+msgstr ""
+
+#: classes/class-pok-admin.php:68 views/setting-custom.php:89
+msgid "Delete"
+msgstr ""
+
+#: classes/class-pok-admin.php:69 views/setting-custom.php:137
+msgid "Add"
+msgstr ""
+
+#: classes/class-pok-admin.php:70 views/setting-checker.php:46
+#: views/setting-setting.php:71 views/widget.php:18
+msgid "Select city"
+msgstr ""
+
+#: classes/class-pok-admin.php:71 views/setting-checker.php:50
+#: views/widget.php:24
+msgid "Select district"
+msgstr ""
+
+#: classes/class-pok-admin.php:105 views/about-onboard.php:20
+msgid "Settings"
+msgstr ""
+
+#: classes/class-pok-admin.php:106 classes/class-pok-admin.php:153
+msgid "License"
+msgstr ""
+
+#: classes/class-pok-admin.php:107 classes/class-pok-admin.php:171
+msgid "About"
+msgstr ""
+
+#: classes/class-pok-admin.php:119
+msgid "Setting"
+msgstr ""
+
+#: classes/class-pok-admin.php:123
+msgid "Custom Shipping Costs"
+msgstr ""
+
+#: classes/class-pok-admin.php:127
+msgid "Shipping Cost Checker"
+msgstr ""
+
+#: classes/class-pok-admin.php:131
+msgid "Error Logs"
+msgstr ""
+
+#: classes/class-pok-admin.php:175
+msgid "Cool Stuffs for Your Site"
+msgstr ""
+
+#: classes/class-pok-admin.php:272
+msgid "Settings saved"
+msgstr ""
+
+#: classes/class-pok-admin.php:291
+msgid "Custom costs saved"
+msgstr ""
+
+#: classes/class-pok-admin.php:317
+msgid "Base API are switched. Please re-set your store location."
+msgstr ""
+
+#: classes/class-pok-admin.php:325
+msgid "All caches has been purged."
+msgstr ""
+
+#: classes/class-pok-admin.php:333
+msgid "All settings has been reset."
+msgstr ""
+
+#: classes/class-pok-admin.php:377
+msgid "Woocommerce not active"
+msgstr ""
+
+#: classes/class-pok-admin.php:381
+msgid "Plugin Ongkos Kirim needs active CURL"
+msgstr ""
+
+#: classes/class-pok-admin.php:388
+msgid "RajaOngkir API Key is not active."
+msgstr ""
+
+#: classes/class-pok-admin.php:394
+msgid "Store Location is empty."
+msgstr ""
+
+#: classes/class-pok-admin.php:398
+msgid "Selected Couriers is empty."
+msgstr ""
+
+#: classes/class-pok-admin.php:405
+msgid ""
+"<strong>Plugin Ongkos Kirim</strong> is disabled due to the following errors:"
+msgstr ""
+
+#: classes/class-pok-admin.php:409
+msgid "Go to Settings"
+msgstr ""
+
+#: classes/class-pok-ajax.php:77
+msgid "API type is not valid"
+msgstr ""
+
+#: classes/class-pok-ajax.php:81
+msgid "API Key is not valid"
+msgstr ""
+
+#: classes/class-pok-checker.php:43
+msgid "District not set"
+msgstr ""
+
+#: classes/class-pok-checker.php:49
+msgid "City not set"
+msgstr ""
+
+#: classes/class-pok-checker.php:68
+msgid "Weight must not empty"
+msgstr ""
+
+#: classes/class-pok-checker.php:72
+msgid "Total price must not empty"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:98
+msgid "Failed to load data. Please refresh the page."
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:147
+msgid "First Name"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:148
+msgid "Last Name"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:150
+msgid "Address"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:154
+#: classes/class-pok-checkout-fields.php:226
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:159
+msgid "Email Address"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:162
+msgid "Phone"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:165
+msgid "Country"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:168
+#: classes/class-pok-checkout-fields.php:225
+msgid "Province"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:169
+msgid "Select Province"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:172
+msgid "City"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:173
+#: classes/class-pok-checkout-fields.php:176
+#: classes/class-pok-checkout-fields.php:243
+msgid "Select City"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:181
+msgid "District"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:182
+#: classes/class-pok-checkout-fields.php:185
+#: classes/class-pok-checkout-fields.php:245
+msgid "Select District"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:227
+msgid "Town / City"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:241
+msgid "Failed to load city list. Try again?"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:242
+msgid "Failed to load district list. Try again?"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:244
+msgid "Loading city options..."
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:246
+msgid "Loading district options..."
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:374
+msgid "<b>Billing district</b> is required"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:379
+msgid "<b>Shipping district</b> is required"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:458
+msgid "Shipping Insurance"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:465
+msgid "Timber Packing Fee"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:478
+msgid "Unique Number"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:495
+msgid "Total Shipping Weight"
+msgstr ""
+
+#: classes/class-pok-checkout-fields.php:526
+msgid "disabled by Plugin Ongkos Kirim"
+msgstr ""
+
+#: classes/class-pok-core.php:335
+msgid "Custom Shipping"
+msgstr ""
+
+#: classes/class-pok-product-hooks.php:25
+msgid "Shipping insurance"
+msgstr ""
+
+#: classes/class-pok-product-hooks.php:27
+msgid "Add shipping insurance fee on checkout"
+msgstr ""
+
+#: classes/class-pok-product-hooks.php:28
+msgid "If checked, the insurance fee will be added to the shipping cost."
+msgstr ""
+
+#: classes/class-pok-product-hooks.php:31
+msgid "Timber packing"
+msgstr ""
+
+#: classes/class-pok-product-hooks.php:33
+msgid "Add timber packing fee on checkout"
+msgstr ""
+
+#: classes/class-pok-product-hooks.php:34
+msgid "If checked, the timber packing fee will be added to the shipping cost."
+msgstr ""
+
+#. Name of the plugin
+#: classes/class-pok-shipping-method.php:15
+#: classes/class-pok-shipping-method.php:18
+msgid "Plugin Ongkos Kirim"
+msgstr ""
+
+#: classes/class-pok-shipping-method.php:16
+msgid "Shipping Method for Indonesia Marketplace"
+msgstr ""
+
+#: views/about-onboard.php:22
+#: libs/tonjoo-license/tonjoo-license-handler.php:440
+msgid "Activate License"
+msgstr ""
+
+#: views/about-onboard.php:39
+msgid "Documentation"
+msgstr ""
+
+#: views/about-onboard.php:40
+msgid ""
+"Confused with Plugin Ongkos Kirim configuration? Our documentation will "
+"assists you to discover all of the plugin's true potential."
+msgstr ""
+
+#: views/about-onboard.php:44
+msgid "View Documentation"
+msgstr ""
+
+#: views/about-onboard.php:53
+msgid "FAQ"
+msgstr ""
+
+#: views/about-onboard.php:54
+msgid ""
+"Have a problem with Plugin Ongkos Kirim? Let's check our Frequently Asked "
+"Questions before you ask something to our support."
+msgstr ""
+
+#: views/about-onboard.php:58
+msgid "View FAQ"
+msgstr ""
+
+#: views/about-onboard.php:67
+msgid "Support Forum"
+msgstr ""
+
+#: views/about-onboard.php:68
+msgid ""
+"We offer outstanding support through our forum. To get our support you need "
+"to register or login using Tonjoostudio account and start a thread."
+msgstr ""
+
+#: views/about-onboard.php:72
+msgid "Visit Forum"
+msgstr ""
+
+#: views/about-onboard.php:81
+msgid "Inaccurate Costs?"
+msgstr ""
+
+#: views/about-onboard.php:82
+msgid ""
+"Our data are updated semi-automatically, some shipping costs may be "
+"inaccurate. Help us to find it by reporting them through provided form."
+msgstr ""
+
+#: views/about-onboard.php:86
+msgid "Report"
+msgstr ""
+
+#: views/setting-checker.php:12 views/setting-setting.php:27
+msgid "Base API"
+msgstr ""
+
+#: views/setting-checker.php:16
+msgid "From"
+msgstr ""
+
+#: views/setting-checker.php:37 views/setting-custom.php:47
+msgid "Destination"
+msgstr ""
+
+#: views/setting-checker.php:40 views/widget.php:9
+msgid "Select province"
+msgstr ""
+
+#: views/setting-checker.php:56 views/widget.php:3
+msgid "Weight (kg)"
+msgstr ""
+
+#: views/setting-checker.php:62 views/setting-checker.php:99
+msgid "Insurance"
+msgstr ""
+
+#: views/setting-checker.php:68
+msgid "Total Price"
+msgstr ""
+
+#: views/setting-checker.php:77
+msgid "Reset"
+msgstr ""
+
+#: views/setting-checker.php:78
+msgid "Get cost"
+msgstr ""
+
+#: views/setting-checker.php:95 views/setting-custom.php:48
+#: views/setting-setting.php:103
+msgid "Courier"
+msgstr ""
+
+#: views/setting-checker.php:96 views/setting-custom.php:49
+msgid "Service Name"
+msgstr ""
+
+#: views/setting-checker.php:97
+msgid "Cost"
+msgstr ""
+
+#: views/setting-checker.php:101
+msgid "Etd (days)"
+msgstr ""
+
+#: views/setting-checker.php:120
+msgid "No result"
+msgstr ""
+
+#: views/setting-checker.php:139
+msgid "Input address to view results"
+msgstr ""
+
+#: views/setting-custom.php:7
+msgid "Custom Courier Name"
+msgstr ""
+
+#: views/setting-custom.php:8
+msgid "Your custom courier name"
+msgstr ""
+
+#: views/setting-custom.php:16
+msgid "Custom Shipping Cost Type"
+msgstr ""
+
+#: views/setting-custom.php:17
+msgid ""
+"Append: Append custom shipping options to original options. <br/>Replace: "
+"Replace original options with custom cost if address match."
+msgstr ""
+
+#: views/setting-custom.php:22
+msgid "Append"
+msgstr ""
+
+#: views/setting-custom.php:24
+msgid "Replace"
+msgstr ""
+
+#: views/setting-custom.php:40
+#, php-format
+msgid ""
+"Based on your current server configuration, only %1$d custom shipping costs "
+"are allowed to input. To increase this limitation please refer to this <a "
+"href=\"%2$s\" target=\"blank\">link</a>."
+msgstr ""
+
+#: views/setting-custom.php:50
+msgid "Cost per Kg"
+msgstr ""
+
+#: views/setting-custom.php:139
+msgid "Limit reached"
+msgstr ""
+
+#: views/setting-custom.php:148
+msgid "Save Custom Costs"
+msgstr ""
+
+#: views/setting-inactive.php:5
+#, php-format
+msgid ""
+"Settings will show up here after you activate the license of Plugin Ongkos "
+"Kirim. <a href=\"%s\">Click here to activate</a>."
+msgstr ""
+
+#: views/setting-setting.php:8
+msgid "Basic Setting"
+msgstr ""
+
+#: views/setting-setting.php:13
+msgid "Enabled"
+msgstr ""
+
+#: views/setting-setting.php:14
+msgid "Enable this shipping method?"
+msgstr ""
+
+#: views/setting-setting.php:19 views/setting-setting.php:146
+#: views/setting-setting.php:178 views/setting-setting.php:194
+#: views/setting-setting.php:253 views/setting-setting.php:314
+#: views/setting-setting.php:333 views/setting-setting.php:358
+#: views/setting-setting.php:386
+msgid "No"
+msgstr ""
+
+#: views/setting-setting.php:21 views/setting-setting.php:148
+#: views/setting-setting.php:180 views/setting-setting.php:196
+#: views/setting-setting.php:255 views/setting-setting.php:316
+#: views/setting-setting.php:335 views/setting-setting.php:360
+#: views/setting-setting.php:388
+msgid "Yes"
+msgstr ""
+
+#: views/setting-setting.php:28
+msgid "Use our default premium API, or Rajaongkir API "
+msgstr ""
+
+#: views/setting-setting.php:33
+msgid "Tonjoo"
+msgstr ""
+
+#: views/setting-setting.php:35
+msgid "Rajaongkir"
+msgstr ""
+
+#: views/setting-setting.php:38
+msgid "Type"
+msgstr ""
+
+#: views/setting-setting.php:45
+msgid "API Key"
+msgstr ""
+
+#: views/setting-setting.php:49
+msgid "Check Rajaongkir Status"
+msgstr ""
+
+#: views/setting-setting.php:53
+msgid "API is active"
+msgstr ""
+
+#: views/setting-setting.php:55
+msgid "API is inactive"
+msgstr ""
+
+#: views/setting-setting.php:66
+msgid "Store Location"
+msgstr ""
+
+#: views/setting-setting.php:67
+msgid "Location of your store"
+msgstr ""
+
+#: views/setting-setting.php:72
+msgid "Select your store location"
+msgstr ""
+
+#: views/setting-setting.php:78
+msgid "Input city name..."
+msgstr ""
+
+#: views/setting-setting.php:108
+msgid "Couriers"
+msgstr ""
+
+#: views/setting-setting.php:111
+msgid "Select couriers to display"
+msgstr ""
+
+#: views/setting-setting.php:128
+#, php-format
+msgid ""
+"Available couriers depends on the base API you choose. <a href=\"%s\">Click "
+"here</a> to learn more."
+msgstr ""
+
+#: views/setting-setting.php:131
+msgid "We recommend to use only 3 of these couriers to optimize the load speed"
+msgstr ""
+
+#: views/setting-setting.php:140
+msgid "Filter Courier Services"
+msgstr ""
+
+#: views/setting-setting.php:141
+msgid "Use specific services for each courier"
+msgstr ""
+
+#: views/setting-setting.php:172
+msgid "Show Long Description on Checkout"
+msgstr ""
+
+#: views/setting-setting.php:173
+msgid ""
+"Show long description for each courier service. Example: <strong>JNE - "
+"REG</strong> becomes <strong>JNE - REG (Layanan Reguler)</strong>"
+msgstr ""
+
+#: views/setting-setting.php:188
+msgid "Enable International Shipping"
+msgstr ""
+
+#: views/setting-setting.php:189
+msgid "Show international shipping costs on checkout page"
+msgstr ""
+
+#: views/setting-setting.php:210
+msgid "Shipping Weight & Cost Calculation"
+msgstr ""
+
+#: views/setting-setting.php:215
+msgid "Default Shipping Weight (kg)"
+msgstr ""
+
+#: views/setting-setting.php:216
+msgid "Default shipping weight if total weight is unknown."
+msgstr ""
+
+#: views/setting-setting.php:225
+msgid "Round Shipping Weight"
+msgstr ""
+
+#: views/setting-setting.php:226
+msgid "How shipping weight will be rounded"
+msgstr ""
+
+#: views/setting-setting.php:231
+msgid "Auto"
+msgstr ""
+
+#: views/setting-setting.php:233
+msgid "Ceil"
+msgstr ""
+
+#: views/setting-setting.php:235
+msgid "Floor"
+msgstr ""
+
+#: views/setting-setting.php:238
+msgid "Weight Rounding Limit (gram)"
+msgstr ""
+
+#: views/setting-setting.php:240
+msgid ""
+"If shipping weight is less equal to the limit, it will rounding down. "
+"Otherwise, it will be rounding up."
+msgstr ""
+
+#: views/setting-setting.php:247
+msgid "Use Volume Metric Calculation"
+msgstr ""
+
+#: views/setting-setting.php:248
+msgid ""
+"Calculate shipping weight using product dimension. If the dimension is not "
+"set, it will use weight instead."
+msgstr ""
+
+#: views/setting-setting.php:257
+msgid "The weight of the product will calculated with the formula:"
+msgstr ""
+
+#: views/setting-setting.php:257
+msgid "length"
+msgstr ""
+
+#: views/setting-setting.php:257
+msgid "width"
+msgstr ""
+
+#: views/setting-setting.php:257
+msgid "height"
+msgstr ""
+
+#: views/setting-setting.php:262
+msgid "Add Insurance Fee"
+msgstr ""
+
+#: views/setting-setting.php:263
+msgid "Add insurance fee to shipping cost"
+msgstr ""
+
+#: views/setting-setting.php:267 views/setting-setting.php:288
+msgid "Apply only if the setting on the product is set to true"
+msgstr ""
+
+#: views/setting-setting.php:268
+msgid "Always add insurance fee no matter what the product"
+msgstr ""
+
+#: views/setting-setting.php:269
+msgid "Do not add insurance fee"
+msgstr ""
+
+#: views/setting-setting.php:272
+msgid "How insurance fee will shown to user"
+msgstr ""
+
+#: views/setting-setting.php:274 views/setting-setting.php:295
+msgid "Show as separated fee"
+msgstr ""
+
+#: views/setting-setting.php:275 views/setting-setting.php:296
+msgid "Combined with shipping cost"
+msgstr ""
+
+#: views/setting-setting.php:278
+#, php-format
+msgid ""
+"Each courier applies different rules for insurance calculations. For more "
+"info, <a href=\"%s\">check here</a>."
+msgstr ""
+
+#: views/setting-setting.php:283
+msgid "Add Timber Packing Fee"
+msgstr ""
+
+#: views/setting-setting.php:284
+msgid "Add timber packing fee to shipping cost."
+msgstr ""
+
+#: views/setting-setting.php:289
+msgid "Always add timber packing fee no matter what the product"
+msgstr ""
+
+#: views/setting-setting.php:290
+msgid "Do not add timber packing fee"
+msgstr ""
+
+#: views/setting-setting.php:293
+msgid "How timber packing fee will shown to user"
+msgstr ""
+
+#: views/setting-setting.php:298
+msgid "Shipping cost multiplier"
+msgstr ""
+
+#: views/setting-setting.php:301
+msgid ""
+"The shipping cost multiplier is used to determine how much the timber "
+"packing fee is. The value \"1\" means the timber packing fee is equal to the "
+"selected shipping cost."
+msgstr ""
+
+#: views/setting-setting.php:308
+msgid "Add Additional Shipping Cost"
+msgstr ""
+
+#: views/setting-setting.php:309
+msgid "You can mark-up/mark-down your shipping cost based on your need."
+msgstr ""
+
+#: views/setting-setting.php:319
+msgid "Additional Shipping Cost"
+msgstr ""
+
+#: views/setting-setting.php:321
+msgid ""
+"Additional/Reduction Shipping Price here. (insert negative value for "
+"reduction)"
+msgstr ""
+
+#: views/setting-setting.php:327
+msgid "Show Total Weight on Checkout"
+msgstr ""
+
+#: views/setting-setting.php:328
+msgid "Show total shipping weight on checkout page"
+msgstr ""
+
+#: views/setting-setting.php:347
+msgid "Miscellaneous"
+msgstr ""
+
+#: views/setting-setting.php:352
+msgid "Add Unique Number on Checkout"
+msgstr ""
+
+#: views/setting-setting.php:353
+msgid ""
+"Add unique number to total purchase to easily differ an order from another"
+msgstr ""
+
+#: views/setting-setting.php:363
+msgid "Unique Number Length"
+msgstr ""
+
+#: views/setting-setting.php:374
+msgid "Length of you unique number."
+msgstr ""
+
+#: views/setting-setting.php:380
+msgid "Auto Fill Address"
+msgstr ""
+
+#: views/setting-setting.php:381
+msgid ""
+"Auto-fill checkout field with saved address if customer is a returning user."
+msgstr ""
+
+#: views/setting-setting.php:400
+msgid "Caching"
+msgstr ""
+
+#: views/setting-setting.php:405
+msgid "Cache Expiration (in hours)"
+msgstr ""
+
+#: views/setting-setting.php:406
+msgid ""
+"Cache expiration is a feature that keep your shipping costs data or "
+"addresses data as a stored cache. This feature will significally increase "
+"your website speed."
+msgstr ""
+
+#: views/setting-setting.php:409
+msgid "Shipping Costs Data"
+msgstr ""
+
+#: views/setting-setting.php:412
+msgid "Addresses Data (province list, city list, etc)"
+msgstr ""
+
+#: views/setting-setting.php:418
+msgid "Flush Cache"
+msgstr ""
+
+#: views/setting-setting.php:419
+msgid "Delete all cached data"
+msgstr ""
+
+#: views/setting-setting.php:422 views/setting-setting.php:431
+msgid "Are you sure?"
+msgstr ""
+
+#: views/setting-setting.php:427
+msgid "Reset Configuration"
+msgstr ""
+
+#: views/setting-setting.php:428
+msgid "Delete all saved configuration just like fresh install."
+msgstr ""
+
+#: views/setting-setting.php:441
+msgid ""
+"More advanced setting will show up here if you activate the license of "
+"Rajaongkir."
+msgstr ""
+
+#: views/setting-setting.php:450
+msgid "Save Setting"
+msgstr ""
+
+#: views/setting-wc.php:4
+msgid "Click here to configure"
+msgstr ""
+
+#: views/widget.php:7
+msgid "Destination Province"
+msgstr ""
+
+#: views/widget.php:16
+msgid "Destination City"
+msgstr ""
+
+#: views/widget.php:22
+msgid "Destination District"
+msgstr ""
+
+#: views/widget.php:28
+msgid "Get Cost"
+msgstr ""
+
+#: classes/api/class-pok-api.php:427
+msgid "can not connect server"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:82
+#: libs/tonjoo-license/tonjoo-license-api.php:145
+#: libs/tonjoo-license/tonjoo-license-api.php:178
+msgid "Error: License key is empty"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:93
+msgid "Can't connect to server. Please try again."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:102
+msgid ""
+"Error: The license is already in use. If you sure this license is belongs to "
+"you and no other sites are using this license, please contact us at the "
+"forum."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:107
+#: libs/tonjoo-license/tonjoo-license-api.php:119
+#: libs/tonjoo-license/tonjoo-license-api.php:156
+#: libs/tonjoo-license/tonjoo-license-api.php:204
+#, php-format
+msgid "Error: %s. Please try again."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-api.php:196
+#: libs/tonjoo-license/tonjoo-license-api.php:216
+#: libs/tonjoo-license/tonjoo-license-handler.php:188
+msgid "Error: Can't connect to server"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:292
+#: libs/tonjoo-license/tonjoo-license-handler.php:371
+msgid "Error: Authentication Failed. Please try again"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:309
+#, php-format
+msgid "Your license has expired at %s"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:325
+msgid "Activation Success"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:356
+#: libs/tonjoo-license/tonjoo-license-handler.php:402
+msgid "License key is empty"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:384
+msgid "Deactivation Success"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:422
+#, php-format
+msgid "Your trial for <strong>%s</strong> has ended."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:424
+#, php-format
+msgid "Your license for <strong>%s</strong> has expired."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:428
+#: libs/tonjoo-license/view/license-form.php:142
+msgid "Renew License"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:430
+#: libs/tonjoo-license/tonjoo-license-handler.php:442
+#: libs/tonjoo-license/tonjoo-license-handler.php:456
+#: libs/tonjoo-license/tonjoo-license-handler.php:468
+msgid "Don't show again"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:437
+#, php-format
+msgid "Please activate your <strong>%s</strong> license."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:451
+#, php-format
+msgid "Your license for <strong>%s</strong> will ended soon."
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:454
+#: libs/tonjoo-license/tonjoo-license-handler.php:466
+msgid "Renew"
+msgstr ""
+
+#: libs/tonjoo-license/tonjoo-license-handler.php:463
+#, php-format
+msgid "Your trial license for <strong>%s</strong> will ended soon."
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:103
+msgid "License Status"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:109
+msgid "Trial Activated"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:111
+msgid "Activated"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:119
+msgid "Trial Expired"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:121
+msgid "Expired"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:127
+msgid "Not Activated"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:134
+msgid "Your License Code"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:140
+msgid "Deactivate"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:142
+msgid "Check License"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:148
+#, php-format
+msgid "Valid until: %s"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:151
+#: libs/tonjoo-license/view/license-form.php:154
+#, php-format
+msgid "(expired soon, <a href=\"%s\" target=\"_blank\">click to renew</a>)"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:157
+#, php-format
+msgid "Expired at: %s"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:159
+msgid "Input your license key"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:167
+msgid "Last Check"
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:173
+#, php-format
+msgid "Find your license code at <a href=\"%1$s\" target=\"_blank\">%2$s</a>."
+msgstr ""
+
+#: libs/tonjoo-license/view/license-form.php:174
+#, php-format
+msgid ""
+"If you have problems with the license, reach us at <a href=\"%s\" "
+"target=\"_blank\">Our Forum</a>."
+msgstr ""
+
+#. Description of the plugin
+msgid "Support woocomerce calculation your shipping cost"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://tonjoostudio.com/addons/woo-ongkir/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Tonjoo Studio"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tonjoostudio.com"
+msgstr ""

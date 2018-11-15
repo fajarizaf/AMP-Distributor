@@ -1,0 +1,15 @@
+#g7g_custom_fields .inside { margin: 0; padding: 0 0 14px 0; }
+
+.g7g-meta-box table { width: 100%; margin: 0; border-spacing: 0; border: 0; }
+
+.g7g-meta-box th { vertical-align: top; padding: 10px; line-height: 1.5em; font-size: 13px; font-weight: bold; color: #333; background-color: #f9f9f9; } /* 1f1f1 */
+.g7g-meta-box td { vertical-align: top; padding: 10px; }
+
+.g7g-meta-box th:first-child { width: 38%; }
+.g7g-meta-box td:first-child { width: 38%; }
+
+.g7g-meta-box input,
+.g7g-meta-box textarea,
+.g7g-meta-box select { display: inline-block; width: 96%; vertical-align: top; }
+
+.g7g-enter-new { display: inline-block; margin: 5px; text-decoration: none; }

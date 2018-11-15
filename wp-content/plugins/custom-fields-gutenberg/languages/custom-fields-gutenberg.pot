@@ -1,0 +1,224 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Fields Gutenberg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-14 20:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the plugin
+#: custom-fields-gutenberg.php:71 inc/settings-display.php:10
+msgid "Custom Fields for Gutenberg"
+msgstr ""
+
+#: custom-fields-gutenberg.php:122
+msgid "Settings"
+msgstr ""
+
+#: custom-fields-gutenberg.php:137
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr ""
+
+#: custom-fields-gutenberg.php:138
+msgid "Rate this plugin"
+msgstr ""
+
+#: custom-fields-gutenberg.php:160
+msgid "requires WordPress "
+msgstr ""
+
+#: custom-fields-gutenberg.php:161
+msgid " or higher, and has been deactivated! "
+msgstr ""
+
+#: custom-fields-gutenberg.php:162
+msgid "Please return to the"
+msgstr ""
+
+#: custom-fields-gutenberg.php:163
+msgid "WP Admin Area"
+msgstr ""
+
+#: custom-fields-gutenberg.php:164
+msgid "to upgrade WordPress and try again."
+msgstr ""
+
+#: custom-fields-gutenberg.php:184 custom-fields-gutenberg.php:190
+msgid "Sorry, pal!"
+msgstr ""
+
+#: inc/settings-reset.php:18
+msgid "Default options restored."
+msgstr ""
+
+#: inc/settings-reset.php:24
+msgid "No changes made to options."
+msgstr ""
+
+#: inc/plugin-core.php:21
+msgid "Custom Fields"
+msgstr ""
+
+#: inc/plugin-core.php:40 inc/plugin-core.php:157
+msgid "Name"
+msgstr ""
+
+#: inc/plugin-core.php:41 inc/plugin-core.php:104 inc/plugin-core.php:158
+msgid "Value"
+msgstr ""
+
+#: inc/plugin-core.php:96
+msgid "Key"
+msgstr ""
+
+#: inc/plugin-core.php:153
+msgid "Add New Custom Field"
+msgstr ""
+
+#: inc/plugin-core.php:168
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/plugin-core.php:187
+msgid "Enter new"
+msgstr ""
+
+#: inc/plugin-core.php:188
+msgid "Cancel"
+msgstr ""
+
+#: inc/plugin-core.php:206
+msgid "Custom fields can be used to add extra metadata to a post that you can"
+msgstr ""
+
+#: inc/plugin-core.php:207
+msgid "use in your theme"
+msgstr ""
+
+#: inc/plugin-core.php:208
+msgid "Visit the plugin"
+msgstr ""
+
+#: inc/plugin-core.php:209
+msgid "settings"
+msgstr ""
+
+#: inc/plugin-core.php:210
+msgid "for more info."
+msgstr ""
+
+#. Name of the plugin
+#: inc/settings-display.php:11
+msgid "Custom Fields Gutenberg"
+msgstr ""
+
+#: inc/settings-display.php:27
+msgid "Thanks for using this free plugin. For complete documentation,"
+msgstr ""
+
+#: inc/settings-display.php:29
+msgid "visit the plugin homepage"
+msgstr ""
+
+#: inc/resources-enqueue.php:47
+msgid "Confirm Reset"
+msgstr ""
+
+#: inc/resources-enqueue.php:48
+msgid "Restore default options?"
+msgstr ""
+
+#: inc/resources-enqueue.php:49
+msgid "Yes, make it so."
+msgstr ""
+
+#: inc/resources-enqueue.php:50
+msgid "No, abort mission."
+msgstr ""
+
+#: inc/settings-register.php:21
+msgid "Post Types"
+msgstr ""
+
+#: inc/settings-register.php:22
+msgid "Options"
+msgstr ""
+
+#: inc/settings-register.php:33
+msgid "Exclude Protected"
+msgstr ""
+
+#: inc/settings-register.php:33
+msgid "Do not display protected/hidden custom fields"
+msgstr ""
+
+#: inc/settings-register.php:34
+msgid "Exclude Empty"
+msgstr ""
+
+#: inc/settings-register.php:34
+msgid "Do not display empty custom fields"
+msgstr ""
+
+#: inc/settings-register.php:35
+msgid "Exclude Fields"
+msgstr ""
+
+#: inc/settings-register.php:35
+msgid "Do not display these custom fields (e.g., books, movies)"
+msgstr ""
+
+#: inc/settings-register.php:36
+msgid "Reset Options"
+msgstr ""
+
+#: inc/settings-register.php:36 inc/settings-register.php:135
+msgid "Restore default plugin options"
+msgstr ""
+
+#: inc/settings-register.php:37
+msgid "Rate Plugin"
+msgstr ""
+
+#: inc/settings-register.php:37 inc/settings-register.php:145
+msgid "Show support with a 5-star rating&nbsp;&raquo;"
+msgstr ""
+
+#: inc/settings-register.php:72
+msgid "Where do you want to display the Custom Fields meta box?"
+msgstr ""
+
+#: inc/settings-register.php:78
+msgid ""
+"Note: the default settings give you the same functionality as the original "
+"Custom Fields meta box."
+msgstr ""
+
+#: inc/settings-register.php:144
+msgid ""
+"Please give this plugin a 5-star rating :) A huge THANK YOU for your support!"
+msgstr ""
+
+#. Description of the plugin
+msgid "Restores the Custom Field meta box for Gutenberg."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://perishablepress.com/custom-fields-gutenberg/"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jeff Starr"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://plugin-planet.com/"
+msgstr ""

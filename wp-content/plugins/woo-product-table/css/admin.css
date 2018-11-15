@@ -1,0 +1,211 @@
+/**
+Style for WOO Product Table Admin Panel
+*/
+
+.plugin_name .plugin_version {
+    color: white;
+    background: #4CAF50;
+    display: inline-block;
+    padding: 1px 10px 3px 10px;
+}
+.wpt_column>* {
+    width: 100% !important;
+    display: block;
+}
+.wpt_column>label.wpt_label {
+    color: #0c0c0c;
+    padding: 5px 0;
+    font-weight: normal;
+}
+.wpt_column {
+    margin-bottom: 10px;
+}
+textarea#wpt_shortcode_generate_input {
+    width: 100%;
+    background: white;
+    font-family: inherit;
+    height: 157px !important;
+}
+div.wrap.wpt_wrap div.tab-content {
+    background: rgba(255, 255, 255, 0.69);
+    padding: 17px 10px;
+}
+
+/* Style for no Woocommerce message and highligh*/
+.highlight {
+background: rgb(255, 249, 197);
+    border: 1px solid rgba(199, 179, 0, 0.56);
+    padding: 18px;
+    max-width: 500px;
+}
+h2.no_woocommerce_message {
+    color: red;
+    border: 2px solid red;
+    padding: 20px;
+    display: inline-block;
+    clear: both !important;
+}
+/************Style for Sortable Start***************/
+ul#wpt_column_sortable>li {
+}
+li.wpt_sortable_peritem,
+li.hide_on_mobile_permits
+{
+    width: 100%;
+    border:  1px solid #ddd;
+    padding-left: 0;
+    display:  table;
+    position:  relative;
+    overflow:  hidden;
+}
+ul#wpt_column_sortable>li.wpt_sortable_peritem,
+ul#wpt_keyword_hide_mobile>li.hide_on_mobile_permits
+{
+    opacity: 0.5;
+}
+ul#wpt_column_sortable>li.wpt_sortable_peritem.enabled,
+ul#wpt_keyword_hide_mobile>li.hide_on_mobile_permits.enabled
+{
+    opacity: 1;
+}
+
+
+ul#wpt_column_sortable,
+ul#wpt_keyword_hide_mobile
+{
+    background:  white;
+    padding:  4px;
+    margin: 0;
+}
+
+.wpt_shortable_data,
+.wpt_mobile_hide_keyword
+{
+    width: 100%;
+    background: #f9f9f9;
+    padding: 10px 0 10px 45px;
+}
+ul#wpt_column_sortable li>span.handle,
+ul#wpt_keyword_hide_mobile li>span.handle
+{
+    background: #cecbcb no-repeat center center;
+    height: 100%;
+    width: 41px;
+    position: absolute;
+    cursor: move;
+}
+ul#wpt_column_sortable li>span.handle.checkbox_handle,
+ul#wpt_keyword_hide_mobile li>span.handle.checkbox_handle
+{
+    top: 0;
+    right: 0;
+    width: 52px !important;
+    background: #ffffff none !important;
+}
+ul#wpt_column_sortable li>span.handle.checkbox_handle>input.enabled,
+ul#wpt_keyword_hide_mobile li>span.handle.checkbox_handle>input.enabled
+{
+    margin-top: 0;
+    padding: 0;
+    background: #6bff70;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+}
+ul#wpt_column_sortable li>span.handle.checkbox_handle>input,
+ul#wpt_keyword_hide_mobile li>span.handle.checkbox_handle>input
+{
+    margin-top: 0;
+    padding: 0;
+    background: #eaeaea;
+    position: absolute;
+    top: 32%;
+    left: 32%;
+}
+.wpt_shortable_data input{
+    width: 80%;
+}
+
+
+li.wpt_sortable_peritem.ui-sortable-helper {
+    border: 1px solid rgba(33, 150, 243, 0.54);
+}
+ul#wpt_column_sortable li.wpt_sortable_peritem.ui-sortable-helper>span.handle {
+    background-color: rgba(33, 150, 243, 0.54);
+}
+/************Style for Sortable End***************/
+
+
+/**************Style for Shortcode Generator Section Start Here******************/
+.wpt_shotcode_gererator_buttor_wrapper {
+    width:  100%;
+    display:  block;
+}
+
+.fieldwrap.wpt_result_footer {
+    display:  block;
+    background: #ffffff;
+    padding: 8px;
+}
+
+.shortcode_output {
+    display:  block;
+    width:  100%;
+    margin-top: 9px;
+}
+
+.shortcode_output {}
+
+.shortcode_output textarea#wpt_output_of_shortcode {
+    width:  100%;
+    height: 129px;
+    font-family: monospace;
+}
+/**************Style for Shortcode Generator Section End Here******************/
+
+/*Custom style for Multiple Select */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: rgba(228, 228, 228, 0.18);
+    border: 1px solid rgba(170, 170, 170, 0.45);
+    border-radius: 4px;
+    margin: 5px 5px 0px 0px;
+    padding: 4px 3px;
+    color: black;
+}
+
+/****Admin section Right Side*****/
+div.wpt_rightside div.wpt_right_side_in_wrapper {
+    padding: 10px;
+    margin-top: 30px;
+    background: #e5e5e5;
+    margin-left: 17px;
+    border: 1px solid #4caf50;
+}
+div.wpt_rightside img.rate_us_image {
+    max-width: 100%;
+}
+.rate_us_wrapper h1 {
+    color: #989898;
+}
+.wpt_rightside {
+    padding-top: 14px;
+}
+.need_help_wrapper h1 {
+    color: #4caf50;
+    font-weight: bold;
+    font-size: 3em;
+}
+.need_help_wrapper a {
+    color: #9c9c9c;
+}
+.need_help_wrapper>span{display: block;}
+
+/*****Style for only Free******/
+.wpt_only_pro{color: red !important;font-weight: bold !important;}
+.wpt_column.wpt_not_available {
+    opacity: 0.3;
+}
+
+.wpt_not_available, .wpt_not_available * {
+    color: #b91616 !important;
+}

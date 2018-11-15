@@ -1,0 +1,12 @@
+.berocket_brand_post_image {
+    float: right;
+    margin: 0 0 10px 10px;
+    width: 100%;
+}
+.berocket_brand_description {
+    max-width: 100%;
+    margin: 1em 0;
+}
+.br_widget_brand_element {
+    margin-top: 0.3em;
+}

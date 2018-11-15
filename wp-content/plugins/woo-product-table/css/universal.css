@@ -1,0 +1,309 @@
+/**
+Universal CSS Style for Woo Product Table
+This file CSS, generally for all template Table
+*/
+/*******For All Table*********/
+div.wpt_product_table_wrapper table#wpt_table tr.wpt_row td p{padding: 0;margin: 0;}
+div.wpt_product_table_wrapper table#wpt_table tr.wpt_row td .wpt_varition_section div.wpt_message p.stock.out-of-stock{color: #d22121;}
+div.wpt_product_table_wrapper table#wpt_table tr.wpt_row td .wpt_varition_section div.wpt_message p.stock.in-stock{
+    color: #4caf50;
+    font-weight: bold;
+}
+td.wpt_action {
+    text-align: right !important;
+}
+
+.wpt_varition_section {
+    display:  inline-block;
+    margin: 6px;
+}
+td.wpt_checky {
+    text-align: center;
+}
+table.wpt_product_table thead tr{cursor: pointer;}
+
+
+/************Table Checkbox****************/
+input.wpt_tabel_checkbox.wpt_td_checkbox.disabled {
+    opacity: 0.3;
+}
+/*************Add to Cart Customizing****************/
+a.button.wpt_woo_add_cart_button{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background: #efefef;
+}
+
+/*
+a.wpt_added_to_cart{
+  font-family: WooCommerce;
+    content: '\e01c';
+    vertical-align: top;
+    font-weight: 400;
+    position: absolute;
+    top: 36%;
+    right: 7%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;  
+}
+div.wpt_product_table_wrapper table#wpt_table tr.wpt_row td.wpt_action a.button.disabled.wpt_woo_add_cart_button.loading::after{
+    font-family: WooCommerce;
+    content: '\e01c';
+    vertical-align: top;
+    font-weight: 400;
+    position: absolute;
+    top: 36%;
+    right: 7%;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+*/
+/*Customize Serial Number collumn*/
+.wpt_product_table thead th.serial_number{
+    width: 67px;
+    font-size: 12px !important;
+}
+
+.wpt_product_table thead th.description {
+    width: 312px;
+}
+.wpt_product_table *,.wpt_product_table tr>td,.wpt_product_table td{
+    box-sizing: border-box;vertical-align:middle;
+}
+
+.wpt_product_table tbody tr td.wpt_thumbnail {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden;
+    height: 62px;
+}
+.wpt_product_table tbody tr td.wpt_thumbnail>img {
+    position: absolute;
+    top: 3px;
+    left: 21%;
+}
+
+/*******Style for Stock/OutofStock Info*********/
+span.outofstock {
+    color: #e65454;
+    font-weight:  normal;
+}
+
+span.instock {
+    color: #4CAF50;
+    font-weight:  bold;
+}
+
+
+/*Customizing Quantity*/
+table.wpt_product_table tr.wpt_row td.wpt_quantity div.quantity input.input-text.qty.text {
+    width: 58px !important;
+}
+table.wpt_product_table tr.wpt_row td.wpt_quantity div.quantity{
+    text-align: center;
+}
+table.wpt_product_table tr.wpt_row td.wpt_quantity{
+    text-align: center;
+}
+table.wpt_product_table tr.wpt_row td.wpt_quantity .quantity {
+    padding: 5px 0;
+}
+
+
+/***********************Style For PopUP*****************************/
+.wpt_thumbs_popup,#wpt_thumbs_popup {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.57);
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    display: none;
+}
+#wpt_thumbs_popup .wpt_popup_image_wrapper {
+    width: 85%;
+    margin:5% auto;
+    background: white;
+    padding: 10px;
+    position: relative;
+    max-width: 555px;
+}
+#wpt_thumbs_popup img.wpt_popup_image {
+    width: 100%;
+    height: auto;
+}
+#wpt_thumbs_popup .wpt_wrapper_title{padding: 0;margin: 0;}
+span#wpt_popup_close {
+    position: absolute;
+    background: red;
+    padding: 0;
+    right: 20px;
+    top: 9px;
+    width: 22px;
+    text-align: center;
+    color: white;
+    height: 20px;
+    line-height: 12px;
+    font-size: 20px;
+    border: 1px solid #bd4343;
+    cursor: pointer;
+}
+
+/* For Rating Star of Table */
+.wpt_product_table tbody tr .star-rating {
+    font-size: 0.65em;
+    display: none;
+}
+
+div#wpt_table_wrapper,div#wpt_table_wrapper *{
+    transition: all .4s !important;
+    padding-top: 3px;
+}
+
+/* Custom Style for DataTable Style */
+div.dataTables_wrapper>.top,div.dataTables_wrapper>.actions {
+    padding: 5px 10px;
+}
+
+table.wpt_product_table.display.dataTable thead tr th.sorting_asc {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+table.wpt_product_table.display.dataTable thead tr th.sorting_desc {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.dataTables_paginate.paging_full_numbers {
+    margin-bottom: 10px;
+}
+
+/****************Style for Live Cart of Table******************/
+.wpt_live_cart_box {
+    padding: 5px 10px;
+    position:  relative;
+}
+
+.wpt_live_cart_box .cart-dropdown .wpt_dropdown {
+    padding:  0;
+    margin:  0;
+    list-style:  none;
+}
+
+.wpt_live_cart_box .cart-dropdown .wpt_dropdown li {
+    padding: 0px 5px;
+    background: rgba(189, 189, 189, 0.07058823529411765);
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.12156862745098039);
+    border-radius: 4px;
+    margin: 2px 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.wpt_live-cart-subtotal, .wpt_live-cart-other_link {
+    display: inline-block;
+}
+.wpt_live-cart-other_link>a {
+    padding: 0 13px;
+}
+/*****For All/Multiple checkbox Selector add to cart button*****/
+.all_check_header_footer.all_check_header span {
+    display:  inline-block;
+}
+
+.all_check_footer {
+    display: block;
+    padding: 10px;
+    margin: 3px 0;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.14901960784313725);
+}
+.all_check_header_footer.all_check_header>span {
+    background: rgba(119, 115, 115, 0.0196078431372549);
+    display: inline-block;
+    padding: 3px 17px;
+    border: 1px solid rgba(119, 115, 115, 0.12);
+    margin: 0 10px;
+}
+.all_check_header_footer.all_check_header>span>* {
+    padding: 0 !important;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+.all_check_header_footer.all_check_header>span>label{
+    display: inline-block;
+}
+.all_check_header_footer.all_check_header {
+    text-align: right;
+    padding: 5px;
+}
+a.button.add_to_cart_all_selected {
+    display: inline-block;
+}
+
+/************Responsive Issue for Table**************
+* Removing Item List for Mobile Version
+* Serial Number, 
+* Product Description,
+* Rating
+* SKU
+* Qty / Quantity
+
+.wpt_product_table_wrapper .wpt_product_table th.serial_number,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_serial_number,
+    .wpt_product_table_wrapper .wpt_product_table th.description,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_description,
+    .wpt_product_table_wrapper .wpt_product_table th.sku,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_sku,
+    .wpt_product_table_wrapper .wpt_product_table th.quantity,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_quantity,
+    .wpt_product_table_wrapper .wpt_product_table th.rating,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_rating,
+    
+    .hide_column_for_mobile{
+        display: none;
+    }
+
+@media only screen and (max-device-width: 500px) and (-webkit-min-device-pixel-ratio: 2){
+    .wpt_product_table_wrapper .wpt_product_table th.serial_number,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_serial_number,
+    .wpt_product_table_wrapper .wpt_product_table th.description,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_description,
+    .wpt_product_table_wrapper .wpt_product_table th.sku,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_sku,
+    .wpt_product_table_wrapper .wpt_product_table th.quantity,
+    .wpt_product_table_wrapper .wpt_product_table td.wpt_quantity,
+    
+    .hide_column_for_mobile{
+        display: none;
+    }
+}
+*/
+@media only screen and (min-width: 500px) and (min-device-width: 500px) and (-webkit-min-device-pixel-ratio: 2){
+    #wpt_thumbs_popup .wpt_popup_image_wrapper {
+        margin:5% auto !important;
+    }
+}
+
+/******Adjust Theme********/
+table#wpt_table.wpt_product_table tr.wpt_row td.wpt_quantity .quantity input.plus, 
+table#wpt_table.wpt_product_table tr.wpt_row td.wpt_quantity .quantity input.minus {
+    width: 28px;
+}
+
+
+
+/*****Responsive Table's Universal ********/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+    a.button.wpt_woo_add_cart_button.add_to_cart_button {
+        margin-top: 7px !important;
+        margin-bottom: 7px !important;
+        display: inline-block;
+    }
+    
+}

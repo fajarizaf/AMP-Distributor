@@ -1,0 +1,66 @@
+2018-10-16T13:13:22+00:00 CRITICAL Uncaught Error: Call to undefined function mwe_get_formatted_shipping_name_and_address() in /Library/WebServer/Project/amp/wp-content/themes/hypermarket/woocommerce/myaccount/purchase-order-form.php:8
+Stack trace:
+#0 /Library/WebServer/Project/amp/wp-content/themes/hypermarket/functions.php(628): include()
+#1 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): content_purchase_form('')
+#2 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Library/WebServer/Project/amp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2836): do_action('woocommerce_acc...', '')
+#5 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#6 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_act
+
+2018-10-16T13:15:22+00:00 CRITICAL Uncaught Error: Call to undefined function mwe_get_formatted_shipping_name_and_address() in /Library/WebServer/Project/amp/wp-content/themes/hypermarket/woocommerce/myaccount/purchase-order-form.php:8
+Stack trace:
+#0 /Library/WebServer/Project/amp/wp-content/themes/hypermarket/functions.php(628): include()
+#1 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): content_purchase_form('')
+#2 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Library/WebServer/Project/amp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2836): do_action('woocommerce_acc...', '')
+#5 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#6 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_act
+
+2018-10-16T13:16:52+00:00 CRITICAL Uncaught Error: Call to undefined function mwe_get_formatted_shipping_name_and_address() in /Library/WebServer/Project/amp/wp-content/themes/hypermarket/woocommerce/myaccount/purchase-order-form.php:8
+Stack trace:
+#0 /Library/WebServer/Project/amp/wp-content/themes/hypermarket/functions.php(628): include()
+#1 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): content_purchase_form('')
+#2 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Library/WebServer/Project/amp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2836): do_action('woocommerce_acc...', '')
+#5 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#6 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_act
+
+2018-10-16T13:18:21+00:00 CRITICAL Uncaught Error: Call to undefined function mwe_get_formatted_shipping_name_and_address() in /Library/WebServer/Project/amp/wp-content/themes/hypermarket/woocommerce/myaccount/purchase-order-form.php:8
+Stack trace:
+#0 /Library/WebServer/Project/amp/wp-content/themes/hypermarket/functions.php(628): include()
+#1 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): content_purchase_form('')
+#2 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Library/WebServer/Project/amp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2836): do_action('woocommerce_acc...', '')
+#5 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#6 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_act
+
+2018-10-16T13:19:26+00:00 CRITICAL Uncaught Error: Call to undefined function mwe_get_formatted_shipping_name_and_address() in /Library/WebServer/Project/amp/wp-content/themes/hypermarket/woocommerce/myaccount/purchase-order-form.php:8
+Stack trace:
+#0 /Library/WebServer/Project/amp/wp-content/themes/hypermarket/functions.php(628): include()
+#1 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): content_purchase_form('')
+#2 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Library/WebServer/Project/amp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2836): do_action('woocommerce_acc...', '')
+#5 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#6 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_act
+
+2018-10-16T13:21:17+00:00 CRITICAL Uncaught Error: Call to undefined function mwe_get_formatted_shipping_name_and_address() in /Library/WebServer/Project/amp/wp-content/themes/hypermarket/woocommerce/myaccount/purchase-order-form.php:8
+Stack trace:
+#0 /Library/WebServer/Project/amp/wp-content/themes/hypermarket/functions.php(628): include()
+#1 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): content_purchase_form('')
+#2 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Library/WebServer/Project/amp/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2836): do_action('woocommerce_acc...', '')
+#5 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#6 /Library/WebServer/Project/amp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#7 /Library/WebServer/Project/amp/wp-includes/plugin.php(453): WP_Hook->do_act
+

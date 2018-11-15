@@ -1,0 +1,463 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Bulk Order Form\n"
+"POT-Creation-Date: 2018-07-17 13:26+0200\n"
+"PO-Revision-Date: 2018-07-17 13:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wc-bulk-order-form.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bootstrap.php:60
+msgid "Cloning instances of the class is forbidden."
+msgstr ""
+
+#: bootstrap.php:72
+msgid "Unserializing instances of the class is forbidden."
+msgstr ""
+
+#: includes/admin/class-admin-init.php:80
+#: includes/admin/settings_framework/class-wp-plugin-options.php:20
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-admin-init.php:94
+msgid "F.A.Q"
+msgstr ""
+
+#: includes/admin/class-admin-init.php:95
+msgid "Support"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:21
+msgid "Addons"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:25
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:26
+msgid "Products "
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:27
+msgid "Text Translations"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:30
+msgid "No Addons Activated / Installed."
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:70
+msgid "Order Form Template"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:71
+msgid "Select which template you want to use. More Templates Coming Soon!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:83
+msgid "Number of Rows"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:84
+msgid "Number of rows to display on the bulk order form"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:94
+msgid "Maximum Items"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:95
+msgid "Maximum Items to Display in a Search"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:104
+msgid "Each Row Cart Button"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:108
+#: includes/admin/settings_framework/class-wp-plugin-options.php:109
+msgid "Show Add To Cart Button on each row"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:120
+msgid "Add Rows Button"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:124
+#: includes/admin/settings_framework/class-wp-plugin-options.php:125
+msgid "Display Add Row Button ?"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:136
+msgid "Show Product Image "
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:140
+#: includes/admin/settings_framework/class-wp-plugin-options.php:141
+msgid "Display Product Image in Autocomplete search ?"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:151
+msgid "Show Price "
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:155
+#: includes/admin/settings_framework/class-wp-plugin-options.php:156
+msgid "Display price on bulk order form?"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:166
+msgid "Set button to cart or checkout?"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:169
+msgid "Cart"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:170
+msgid "Checkout"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:179
+msgid "Product Image Width & Height"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:198
+msgid "Title for price fields"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:206
+msgid "Title for product fields"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:215
+msgid "Title for quantity fields"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:224
+msgid "Title for variation fields"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:232
+msgid "Title for Single Row Add To Cart button"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:241
+msgid "Title for Cart button"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:251
+msgid "Title for Checkout button"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:261
+msgid "Product Category"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:262
+msgid "Select The Category to list only products from that category"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:270
+msgid "Excluded Products"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:271
+#: includes/admin/settings_framework/class-wp-plugin-options.php:287
+msgid "Search & Select product by name."
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:286
+msgid "Included Products"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:304
+msgid "Search By"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:305
+msgid "When searching for products search by:"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:310
+#, php-format
+msgid "This open is used only when search by is set to all %s"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:311
+msgid ""
+"Note : if attribute search enabled when search by set to `ALL` search "
+"process may become slow based on how many attribute you have. so please do "
+"select only the attribute you need to be search in below field. "
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:317
+#: includes/admin/settings_framework/class-wp-plugin-options.php:330
+#: includes/functions.php:199
+msgid "Product Attributes"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:319
+msgid "Attributes Will Be Searched."
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:320
+msgid "Attributes Will Not Be Searched."
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:342
+msgid "Product Result Format"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:343
+msgid "Choose your product search results format"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:354
+msgid "Variation Product Result Format"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:355
+msgid "Choose your variation product search results format"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:364
+msgid "Product Attribute Format"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:366
+msgid ""
+"Display Attribute Title or Just attribute value Eg : <code>Color:Red</code> "
+"| <code>Red</code>"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:368
+msgid "Attribute Value Only (recommended)"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-plugin-options.php:369
+msgid "Attribute Title And Value"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings-framework.php:41
+#: includes/admin/settings_framework/class-wp-settings-framework.php:42
+msgid "Bulk Order Form Settings"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:703
+#, php-format
+msgid "This feature is only available in %sWooCommerce Bulk Order Form Pro%s"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:713
+msgid "Check out these premium extensions!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:714
+msgid "Click items to read more"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:720
+msgid "Go Pro: Get WooCommerce Bulk Order Form Pro!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:722
+msgid "Supercharge WooCommerce Bulk Order Form with the following features:"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:724
+msgid "Let user search by product id, title, sku, or all"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:725
+msgid ""
+"Choose from 5 different label outputs for the product field on your bulk "
+"order form"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:726
+msgid ""
+"Automatically add extra product rows with the \"add row\" button (can be "
+"turned on or off)"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:727
+msgid "Create and customize as many shortcodes as you want!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:728
+msgid "Display images in product search"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:729
+msgid "Set custom add to cart success/failure messages"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:730
+msgid "Pick to send user to cart or checkout"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:731
+msgid "Option to include add to cart button next to each product field"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:733
+msgid "Get WooCommerce Bulk Order Form Pro!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:740
+msgid "Bulk Order Form Limit Products"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:742
+msgid ""
+"Exclude or include specific products or variations with a simple checkbox, "
+"or by category"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:743
+msgid "Get Bulk Order Form Limit Products!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:751
+msgid "Bulk Order Form Prepopulated Template"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:753
+msgid ""
+"Remove the autocomplete search and pre-populate the form with your products "
+"and variations. (Very Popular)!"
+msgstr ""
+
+#: includes/admin/settings_framework/class-wp-settings.php:754
+msgid "Get Bulk Order Form Prepopulated Template!"
+msgstr ""
+
+#: includes/class-frontend.php:61
+msgid "No Products Were Found"
+msgstr ""
+
+#: includes/class-frontend.php:62
+msgid "Please Select a Product"
+msgstr ""
+
+#: includes/class-frontend.php:63
+msgid "Enter Quantity"
+msgstr ""
+
+#: includes/class-frontend.php:64
+msgid "No Variations"
+msgstr ""
+
+#: includes/functions.php:93
+msgid ""
+" requires <b> WooCommerce </b> To Be Installed..  <br/> <i>Plugin "
+"Deactivated</i> "
+msgstr ""
+
+#: includes/functions.php:148
+msgid "Standard Template"
+msgstr ""
+
+#: includes/functions.php:152
+msgid "Variation Template"
+msgstr ""
+
+#: includes/functions.php:195
+msgid "All"
+msgstr ""
+
+#: includes/functions.php:196
+msgid "Product SKU"
+msgstr ""
+
+#: includes/functions.php:197
+msgid "Product ID"
+msgstr ""
+
+#: includes/functions.php:198
+msgid "Product Title"
+msgstr ""
+
+#: includes/helpers/class-version-check.php:21
+#: includes/helpers/class-version-check.php:48
+msgid " requires WordPress "
+msgstr ""
+
+#: includes/standard-template-add-to-cart-handler.php:45
+#: includes/variation-template-add-to-cart-handler.php:44
+msgid "product"
+msgid_plural "products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/standard-template-add-to-cart-handler.php:46
+#: includes/variation-template-add-to-cart-handler.php:45
+#, php-format
+msgid ""
+"<a class=\"button wc-forward\" href=\"%s\">View Cart</a> Your %s was "
+"successfully added to your cart."
+msgstr ""
+
+#: includes/standard-template-add-to-cart-handler.php:49
+#: includes/variation-template-add-to-cart-handler.php:48
+msgid "Looks like there was an error. Please try again."
+msgstr ""
+
+#: templates/add-to-cart/variable.php:21
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: templates/add-to-cart/variable.php:36
+msgid "Clear"
+msgstr ""
+
+#: templates/add-to-cart/variation.php:31
+msgid ""
+"Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: templates/table-footer.php:6
+msgid "Total : "
+msgstr ""
+
+#: templates/table-footer.php:17
+msgid "Add To Cart"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Bulk Order Form"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/woocommerce-bulk-order-form/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Adds the [wcbulkorder] shortcode which allows you to display bulk order "
+"forms on any page in your site"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ewout Fernhout, Varun Sridharan, Jeremiah Prummer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpovernight.com/"
+msgstr ""
