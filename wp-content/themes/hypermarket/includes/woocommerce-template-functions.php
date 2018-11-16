@@ -160,6 +160,33 @@ if (!function_exists('hypermarket_show_product_loop_brand')):
 endif;
 
 
+if (!function_exists('hypermarket_show_product_loop_merek_kendaraan')):
+	function hypermarket_show_product_loop_merek_kendaraan(){
+		if (hypermarket_is_woocommerce_activated()):
+			echo '<td>'.$_GET['kendaraan'].'</td>';
+		endif;
+	}
+endif;
+
+
+if (!function_exists('hypermarket_show_product_loop_tipe_kendaraan')):
+	function hypermarket_show_product_loop_tipe_kendaraan(){
+		if (hypermarket_is_woocommerce_activated()):
+			global $post;
+			$termq = get_term_by('slug', $_GET['kendaraan'], 'tipe_kendaraan');
+			$terms = get_the_terms( $post->ID , 'tipe_kendaraan' );
+			echo '<td>';
+			foreach ( $terms as $term ) {
+					if($term->parent == $termq->term_id) {
+						echo '- '.$term->name.'<br/>';
+					}
+			}
+			echo '</td>';
+		endif;
+	}
+endif;
+
+
 if (!function_exists('hypermarket_show_product_loop_tipe_aki')):
 	function hypermarket_show_product_loop_tipe_aki(){
 		if (hypermarket_is_woocommerce_activated()):

@@ -300,6 +300,9 @@ a { color:#2c8ccc; }
 	border: 2px solid #4ca0b8 !important;
 }
 
+.woof_reset_search_form {
+	display: none;
+}
 
 
 .woof_text_search_container input[type='search'] {
@@ -307,7 +310,14 @@ a { color:#2c8ccc; }
 }
 
 .woof_submit_search_form_container {
-	display: none;
+
+}
+
+.woof_submit_search_form {
+	padding:11px;
+	-moz-border-radius:4px 4px 4px;
+	-webkit-border-radius:4px 4px 4px;
+	border-radius:4px 4px 4px;
 }
 
 .woof_checkbox_instock_container {
@@ -679,6 +689,7 @@ mark {
 
 #hypermarket-header {
 	position: fixed;
+	background:#373842;
 }
 #container-widget-filter {
 	margin-top: 80px;

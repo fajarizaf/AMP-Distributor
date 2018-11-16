@@ -53,8 +53,11 @@ ul.woof_list{
 
 .woof_submit_search_form_container{
     overflow: hidden;
-    clear: both;
-    margin: 9px 0 15px 0;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    width: 10%;
 }
 
 li.woof_childs_list_li{

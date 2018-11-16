@@ -59,10 +59,8 @@ add_action('woocommerce_before_shop_loop_item', 'hypermarket_template_loop_produ
 add_action('woocommerce_before_shop_loop_item', 'hypermarket_show_product_loop_sale_flash', 25);
 add_action('woocommerce_before_shop_loop_item', 'hypermarket_template_loop_product_title', 10);
 add_action('woocommerce_after_shop_loop_item', 'hypermarket_template_loop_product_thumbnail_end', 10);
-
-add_action('woocommerce_after_shop_loop_item', 'hypermarket_show_product_loop_partnumber', 10);
-add_action('woocommerce_after_shop_loop_item', 'hypermarket_show_product_loop_index', 10);
-add_action('woocommerce_after_shop_loop_item', 'hypermarket_show_product_loop_shortcode', 10);
+add_action('woocommerce_after_shop_loop_item', 'hypermarket_show_product_loop_merek_kendaraan', 25);
+add_action('woocommerce_after_shop_loop_item', 'hypermarket_show_product_loop_tipe_kendaraan', 25);
 add_action('woocommerce_after_shop_loop_item', 'hypermarket_template_loop_product_ah', 25);
 add_action('woocommerce_after_shop_loop_item', 'hypermarket_template_loop_price', 30);
 add_action('woocommerce_after_shop_loop_item', 'hypermarket_template_loop_add_to_cart', 30);
